@@ -1,26 +1,33 @@
-# Frontend Mentor - Expenses chart component
+# Frontend Mentor - Expenses chart component solution
 
-![Design preview for the Expenses chart component coding challenge](./design/desktop-preview.jpg)
+This is a solution to the [Expenses chart component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/expenses-chart-component-e7yJBUdjwt). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Welcome! 👋
+## Overview
 
-Thanks for checking out this front-end coding challenge.
-
-[Frontend Mentor](https://www.frontendmentor.io) challenges help improve coding skills by building realistic projects.
-
-## The challenge
-
-Challenge is to build out this bar chart component and get it looking as close to the design as possible.
+### The challenge
 
 Users should be able to:
 
 - View the bar chart and hover over the individual bars to see the correct amounts for each day
-- See the current day's bar highlighted in a different colour to the other bars
-- View the optimal layout for the content depending on their device's screen size
+- See the current day’s bar highlighted in a different colour to the other bars
+- View the optimal layout for the content depending on their device’s screen size
 - See hover states for all interactive elements on the page
-- **Bonus**: See dynamically generated bars based on the data provided in the local JSON file
+- **Bonus**: Use the JSON data file provided to dynamically size the bars on the chart
 
-## Deploying your project
-
+### Links
 - [GitHub Pages](https://a1excpunk.github.io/expenses-chart-component/)
 
+- Solution URL: [Expenses chart component solution URL](https://github.com/a1excpunk/expenses-chart-component)
+- Live Site URL: [Expenses chart component live site URL](https://a1excpunk.github.io/expenses-chart-component/)
+
+
+### Built with
+
+- Semantic HTML5 markup
+- SCSS
+- Flexbox
+
+## Author
+
+- GitHub - [Add your name here](https://www.your-site.com)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
