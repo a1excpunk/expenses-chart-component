@@ -29,5 +29,5 @@ Users should be able to:
 
 ## Author
 
-- GitHub - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- GitHub - [Alexandra Sauri](https://github.com/a1excpunk)
+- Frontend Mentor - [@a1excpunk](https://www.frontendmentor.io/profile/a1excpunk)
