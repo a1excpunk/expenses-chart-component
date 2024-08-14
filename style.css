@@ -1,1 +1,62 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  font-family: "DM Sans", sans-serif;
+}
+
+body {
+  height: 100svh;
+  background-color: hsl(27, 66%, 92%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 375px;
+  max-width: 1440px;
+  margin: auto;
+}
+
+main {
+  min-width: 375px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+main .my_balance_container {
+  background-color: hsl(10, 79%, 65%);
+  color: hsl(33, 100%, 98%);
+  padding: 30px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  height: 120px;
+}
+main .my_balance_container .my_balance {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+main .my_balance_container .my_balance p {
+  font-size: 14px;
+  font-weight: 400;
+}
+main .my_balance_container .my_balance .my_balance_amount {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+footer {
+  position: absolute;
+  bottom: 10px;
+  font-size: 14px;
+}
+footer a {
+  text-decoration: none;
+  color: hsl(10, 79%, 65%);
+}
+footer a:hover {
+  color: hsl(186, 34%, 60%);
+}/*# sourceMappingURL=style.css.map */

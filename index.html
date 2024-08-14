@@ -11,12 +11,22 @@
       href="./images/favicon-32x32.png"
     />
     <title>Frontend Mentor | Expenses chart component</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400,700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <main>
       <section class="my_balance_container">
-        <p class="my_balance">My balance</p>
-        <div class="my_balance_amount">$921.48</div>
+        <div class="my_balance">
+          <p>My balance</p>
+          <div class="my_balance_amount">$921.48</div>
+        </div>
+        <img src="./images/logo.svg" alt="logo" />
       </section>
       <section class="spending_chart_container">
         <div class="spending_chart_main">
@@ -39,11 +49,11 @@
         <div class="spending_chart_summery">
           <div class="total_spending_month_container">
             <p>Total this month</p>
-            <span>$478.33</span>
+            <div>$478.33</div>
           </div>
           <div class="from_lat_month_container">
             <p>from last month</p>
-            <span>+2.4%</span>
+            <div>+2.4%</div>
           </div>
         </div>
       </section>
