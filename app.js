@@ -11,7 +11,7 @@ fetch("./data.json")
       const height = (amount / maxAmount) * 100;
 
       li.style.setProperty("--dynamic-height", `${height}%`);
-      li.style.setProperty("--amount", `"${amount}"`);
+      li.style.setProperty("--amount", `"$${amount}"`);
 
       if (index === maxIndex) {
         li.classList.add("max-amount");
