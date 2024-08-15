@@ -18,20 +18,21 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400,700&display=swap"
       rel="stylesheet"
     />
+    <script src="app.js" defer></script>
   </head>
   <body>
     <main>
       <section class="my_balance_container">
         <div class="my_balance">
           <p>My balance</p>
-          <div class="my_balance_amount">$921.48</div>
+          <div class="amount">$921.48</div>
         </div>
         <img src="./images/logo.svg" alt="logo" />
       </section>
       <section class="spending_chart_container">
         <div class="spending_chart_main">
           <div class="spending_week_limit">
-            <p>Spending -</p>
+            <span>Spending -</span>
             <span>Last 7 days</span>
           </div>
           <div class="days_of_week">
@@ -49,11 +50,11 @@
         <div class="spending_chart_summery">
           <div class="total_spending_month_container">
             <p>Total this month</p>
-            <div>$478.33</div>
+            <div class="amount" id="totalAmount">$0.00</div>
           </div>
-          <div class="from_lat_month_container">
+          <div class="from_last_month_container">
+            <div class="amount">+2.4%</div>
             <p>from last month</p>
-            <div>+2.4%</div>
           </div>
         </div>
       </section>
